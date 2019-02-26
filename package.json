@@ -1,6 +1,6 @@
 {
   "name": "@spendology/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint config for Spendology projects",
   "main": "index.js",
   "scripts": {
