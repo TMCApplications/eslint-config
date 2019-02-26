@@ -1,4 +1,4 @@
-# eslint-config
+# @spendology/eslint-config
 [![npm version](https://img.shields.io/npm/v/@spendology/eslint-config.svg)](https://img.shields.io/npm/v/@spendology/eslint-config)
 
 This package provides Spendology's .eslintrc as an extensible shared config.
@@ -6,8 +6,6 @@ This package provides Spendology's .eslintrc as an extensible shared config.
 ## Usage
 
 We export one ESLint configuration for your usage.
-
-### @spendology/eslint-config
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+, React and React Redux. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-react` and `eslint-plugin-react-redux`.
 
