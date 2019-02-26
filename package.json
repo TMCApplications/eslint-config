@@ -1,0 +1,27 @@
+{
+  "name": "@spendology/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint config for Spendology projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint-quiet": "yarn run lint --quiet",
+    "lint-fix": "yarn run lint --fix",
+    "lint-quiet-fix": "yarn run lint-quiet --fix"
+  },
+  "author": "Dan Mason <danmason@travelmoneyclub.co.uk>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-redux": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-plugin-react-redux": "^3.0.0"
+  }
+}
