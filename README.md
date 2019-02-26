@@ -9,7 +9,7 @@ We export one ESLint configuration for your usage.
 
 ### @spendology/eslint-config
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+, React and React Redux. It requires `eslint`, `eslint-plugin-react` and `eslint-plugin-react-redux`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+, React and React Redux. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-react` and `eslint-plugin-react-redux`.
 
 1. Install the correct versions of each package, which are listed by the command:
 
