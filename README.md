@@ -1,5 +1,6 @@
 # @spendology/eslint-config
 [![npm version](https://img.shields.io/npm/v/@spendology/eslint-config.svg)](https://www.npmjs.com/package/@spendology/eslint-config)
+[![Build Status](https://travis-ci.com/TMCApplications/eslint-config.svg?branch=master)](https://travis-ci.com/TMCApplications/eslint-config)
 
 This package provides Spendology's .eslintrc as an extensible shared config.
 
