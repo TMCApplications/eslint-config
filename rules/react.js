@@ -12,8 +12,8 @@ module.exports = {
     // View link below for react rules documentation
     // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
     rules: {
-    // Forbid certain propTypes (any)
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
+        // Forbid certain propTypes (any)
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
         'react/forbid-prop-types': ['error', {
             forbid: ['any'],
             checkContextTypes: true,
