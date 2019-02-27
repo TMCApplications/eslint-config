@@ -1,6 +1,6 @@
 {
   "name": "@spendology/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "github:TMCApplications/eslint-config",
   "private": false,
   "description": "ESLint config for Spendology projects",
