@@ -20,6 +20,10 @@ module.exports = {
             checkChildContextTypes: true
         }],
 
+        // Enforce the standard form for React fragments
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
+        'react/jsx-fragments': ['error', 'element'],
+
         // Enforce JSX indentation
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
         'react/jsx-indent': ['error', 4],
