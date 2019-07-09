@@ -71,6 +71,10 @@ module.exports = {
         // Require a shouldComponentUpdate method, PureComponent or pure function
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
         'react/require-optimization': 'error',
+
+        // Enforces where React component static properties should be positioned.
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
+        'react/static-property-placement': ['error', 'property assignment'],
     },
 
     settings: {
