@@ -13,6 +13,7 @@ module.exports = {
             './rules/import',
             './rules/react',
             './rules/react-a11y',
+            './rules/react-hooks',
             './rules/react-redux',
         ].map(require.resolve),
     ],
