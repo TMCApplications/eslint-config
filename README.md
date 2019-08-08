@@ -8,7 +8,7 @@ This package provides Spendology's .eslintrc as an extensible shared config.
 
 We export one ESLint configuration for your usage.
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+, React and React Redux. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-react` and `eslint-plugin-react-redux`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+, React and React Redux. It requires `eslint`, `eslint-config-airbnb`, `eslint-plugin-react` , `eslint-plugin-react-hooks` and `eslint-plugin-react-redux`.
 
 ### Install Option 1
 If using **npm 5+**, use this shortcut
