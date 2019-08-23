@@ -36,6 +36,10 @@ module.exports = {
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
         'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
 
+        // Disallow JSX props spreading
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
+        'react/jsx-props-no-spreading': 'off',
+
         // One JSX Element Per Line - Disabled
         // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/jsx-one-expression-per-line.md
         'react/jsx-one-expression-per-line': 'off',
@@ -59,6 +63,7 @@ module.exports = {
         // Prevent invalid characters from appearing in markup - Disabled
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
         'react/no-unescaped-entities': 'off',
+
 
         // Prevent usage of UNSAFE_ methods and aliases
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md
