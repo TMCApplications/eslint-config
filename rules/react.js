@@ -64,7 +64,6 @@ module.exports = {
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
         'react/no-unescaped-entities': 'off',
 
-
         // Prevent usage of UNSAFE_ methods and aliases
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md
         'react/no-unsafe': ['error', { checkAliases: true }],
