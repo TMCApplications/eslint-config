@@ -1,0 +1,47 @@
+name: "Run Tests"
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: true
+      matrix:
+        node: [13.x]
+
+    name: Node ${{ matrix.node }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache yarn dependencies
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: dependencies-js-${{ matrix.node }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            dependencies-js-${{ matrix.node }}-yarn-
+
+      - name: Setup Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Install yarn
+        run: npm install -g yarn
+
+      - name: Install JavaScript dependencies (yarn)
+        run: yarn --frozen-lockfile
+
+      - name: Lint code
+        run: yarn lint-quiet
