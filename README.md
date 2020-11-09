@@ -1,6 +1,6 @@
 # @spendology/eslint-config
 [![npm version](https://img.shields.io/npm/v/@spendology/eslint-config.svg)](https://www.npmjs.com/package/@spendology/eslint-config)
-[![Build Status](https://travis-ci.com/TMCApplications/eslint-config.svg?branch=master)](https://travis-ci.com/TMCApplications/eslint-config)
+![Run Tests](https://github.com/TMCApplications/eslint-config/workflows/Run%20Tests/badge.svg)
 
 This package provides Spendology's .eslintrc as an extensible shared config.
 
@@ -18,7 +18,7 @@ npx install-peerdeps --dev @spendology/eslint-config
 ```
 
 If using **yarn**, you can also use the shortcut described above if you have npm 5+ installed on your machine, as the command will detect that you are using yarn and will act accordingly.
-  
+
 ### Install Option 2
 Install the correct versions of each package, which are listed by the command:
 
