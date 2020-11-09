@@ -1,6 +1,6 @@
 {
   "name": "@spendology/eslint-config",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "repository": "github:TMCApplications/eslint-config",
   "private": false,
   "description": "ESLint config for Spendology projects",
@@ -14,20 +14,22 @@
     "lint-quiet-fix": "yarn run lint-quiet --fix"
   },
   "dependencies": {
-      "eslint-config-airbnb": "18.2.1"
+    "eslint-config-airbnb": "18.2.1"
   },
   "devDependencies": {
     "eslint": "7.2.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "4.2.0"
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-react-redux": "^3.3.0"
   },
   "peerDependencies": {
-      "eslint": "^7.2.0",
-      "eslint-plugin-import": "^2.22.1",
-      "eslint-plugin-jsx-a11y": "^6.4.1",
-      "eslint-plugin-react": "^7.21.5",
-      "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-redux": "^3.3.0"
   }
 }
